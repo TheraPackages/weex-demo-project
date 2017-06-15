@@ -92,7 +92,8 @@
 
 <script>
   var userTrack = weex.requireModule('userTrack');
-  var fbar = require('./footer-bar.vue');
+  // var fbar = require('./footer-bar.vue');
+  import fbar from './footer-bar.vue'
   var local = require('./local.js');
   module.exports = {
     components: {

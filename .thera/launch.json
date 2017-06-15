@@ -21,10 +21,12 @@
     "apply": "debug",
     "types": {
       "debug": {
-        "minify": false
+        "minify": false,
+        "web": false
       },
       "release": {
-        "minify": true
+        "minify": true,
+        "web": false
       }
     }
   }
