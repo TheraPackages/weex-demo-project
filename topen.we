@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <text>Hello we.</text>
+  </div>
+</template>
+
+<style>
+.hello {
+  width: 200px;
+}
+</style>

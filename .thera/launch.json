@@ -1,6 +1,7 @@
 {
   "version": "0.1.3",
   "main": "${workspaceRoot}/main.vue",
+  "-main": "${workspaceRoot}/topen.we",
   "launch": {
     "appid": "com.taobao.preview",
     "path": "${attachPackage}/weex-run/resources/Preview.app",
@@ -10,13 +11,6 @@
   "type": "weex",
   "notifyOnSync": false,
   "transformPath":"${workspaceRoot}/build",
-  "mock": [
-    {
-      "path": "data.data.cmAboveResult.modules",
-      "api": "mtop.tmall.search.searchproduct",
-      "file": "${workspaceRoot}/mock.json"
-    }
-  ],
   "build": {
     "apply": "debug",
     "types": {
